@@ -1,1 +1,76 @@
 @import "fonts/stylesheet.css";
+body {
+    margin: 0px;
+}
+
+#recipiente {
+    width: 800px;
+    height: 800px;
+    border: 1px solid #d3d3d3;
+    margin-left: auto;
+    margin-right: auto;
+    background-image: -webkit-gradient(linear, 0 100%, 0 0, from(#f6f1b2), to(#4599b2));
+    background-image: -webkit-linear-gradient(#f6f1b2, #4599b2);
+    background-image: -moz-linear-gradient(#f6f1b2, #4599b2);
+    background-image: -o-linear-gradient(#f6f1b2, #4599b2);
+    background-image: linear-gradient(#f6f1b2, #4599b2);
+}
+#cabecalho {
+    float:right;
+}
+#lateral{
+    float: left;
+    position:relative;
+}
+#texto-cardapio{
+    transform: rotate(270deg);
+    font-size: 48px;
+    font-family: "Verdana";
+    font-weight: bold;
+    color: #333;
+
+}
+img[src="images/siri.png"] {
+    position:relative; left: -10px; top:0px;
+    float: left;
+    
+}
+img[src="images/bolhas.png"]{
+    float: left;
+}
+img[src="images/peixe.png"]{
+    float:left;
+    position:relative; bottom:0px;left:44px;
+}
+h1{
+    font-family: "Ravie";
+    font-size: 36px;
+    color: #e90c0c;
+    position: relative; right: 20px;
+    margin-bottom: 0px;
+}
+#subtitulo{
+    font-family: "Trebuchet MS";
+    font-size: 24px;
+    color: #333;
+    position: relative;left:20px;
+    margin: 0px;
+}
+#cardapio{
+    box-sizing:border-box;
+    width: 646px;
+    background:#fff alpha 20%; 
+    position: relative; left: 154px;
+    border: 1px solid #aac0ae;
+    font-family: "Verdana";
+}
+#rodape {
+    width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#ticket {
+    position: absolute;
+    bottom: 295px;
+}
