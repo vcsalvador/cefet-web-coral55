@@ -1,7 +1,5 @@
 @import "fonts/stylesheet.css";
-body {
-    margin: 0px;
-}
+
 
 #recipiente {
     width: 800px;
@@ -14,8 +12,9 @@ body {
     background-image: -moz-linear-gradient(#f6f1b2, #4599b2);
     background-image: -o-linear-gradient(#f6f1b2, #4599b2);
     background-image: linear-gradient(#f6f1b2, #4599b2);
-    position: relative;
+    position: relative; top: 0px;
 }
+
 #cabecalho {
     float:right;
     position: relative;
@@ -24,47 +23,49 @@ body {
 #acai{
     color: #d027aa;
 }
-.preco {
-    position: absolute;
-    right: 0px;
-}
+
 #lateral{
     float: left;
-    position:absolute; 
-    display: block;
+    width:154px;
+    position:relative;
+    display: inline-block;
 }
 #texto-cardapio{
+    clear:both;
+    position: relative; top: 190px;
     transform: rotate(270deg);
-    position: relative;
-    top: 205px;
-    right: 88px;
     font-size: 48px;
     font-family: "Verdana";
     font-weight: bold;
     color: #333;
+    display: block;
 }
 img[src="images/siri.png"] {
+    clear:both;
     position:relative; left: -10px; top:17px;
-    float: left;
-    
+    display:block;
 }
 img[src="images/bolhas.png"]{
+    clear:both;
     float: left;
     position:relative;
-    top: 237px;
-    right: -43px;
+    top: 207px;
+    left: 42px;
+    display: block;
 }
 img[src="images/peixe.png"]{
+    clear:both;
     float:left;
     position:relative;
-    right: 133px;
-    top: 457px;
+    left: -44px;
+    top: 222px;
+    display: block;
 }
 h1{
     font-family: "Ravie";
     font-size: 36px;
     color: #e90c0c;
-    position: relative; right: 20px;
+    position: relative; right: 70px;
     margin-bottom: 0px;
 }
 h3 {
@@ -75,7 +76,7 @@ h3 {
     font-family: "Trebuchet MS";
     font-size: 24px;
     color: #333;
-    position: relative;left:167px;
+    position: relative;left:120px;
     margin: 0px;
     font-weight: normal;
 }
@@ -83,7 +84,8 @@ h3 {
     box-sizing:border-box;
     clear: both;
     width: 646px;
-    position: relative; left: 154px;
+    position: relative;
+    display: inline-block;
     border: 1px solid #aac0ae;
     font-family: "Verdana";
     font-size: 14px;
@@ -92,13 +94,17 @@ h3 {
     padding-left: 10px;
     padding-bottom: 50px;
 }
+.preco {
+    position: absolute;
+    right: 0px;
+}
 #rodape {
-    width: 800px;
-    margin-left: auto;
-    margin-right: auto;
+    background-color: #fff0;
+    display:block;
+    float: right;
     position: relative;
-    left: 685px;
-    bottom: 65px;
+    top: 45;
+    right: 15px;
 }
 
 #ticket {
